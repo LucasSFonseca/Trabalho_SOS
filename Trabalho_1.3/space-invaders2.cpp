@@ -1,6 +1,6 @@
 /* Esse codigo deve ser compilado com as flags -lncurses e -pthread: 
 
-	g++ space-invaders2.cpp -pthread -o space-invaders -lncurses
+	g++ -std=c++11 -o spc space-invaders2.cpp -lncurses -pthread
 	
 */
 
