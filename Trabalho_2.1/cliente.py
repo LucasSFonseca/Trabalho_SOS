@@ -37,11 +37,11 @@ def controleTiro():
 
 print 'Para sair use CTRL+X\n'
 
-msg = controleDirecao + ":" + controleArmadura + ":" + controleTiro + ":"
+msg = controleDirecao() + ":" + controleArmadura() + ":" + controleTiro() + ":"
 
 while msg <> '\x18':
     udp.sendto (msg, dest)
-    msg = controleDirecao + ":" + controleArmadura + ":" + controleTiro + ":"
+    msg = controleDirecao() + ":" + controleArmadura() + ":" + controleTiro() + ":"
     time.sleep(0.1)
 
 udp.close()
