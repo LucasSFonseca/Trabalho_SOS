@@ -21,7 +21,6 @@
 #define BUFSIZE 2048
 
 void controle(unsigned char* pacote, int &has_shot, int &direction, int &has_armor){
-	//char pacote_cast[BUFSIZE] = reinterpret_cast<unsigned char *>(pacote);
 	for (int i = 0 ; i < 5 ; i++){
 		if(pacote[i] == 'D'){
 			direction = 1;
@@ -32,12 +31,10 @@ void controle(unsigned char* pacote, int &has_shot, int &direction, int &has_arm
 			return;
 		}
 		else if(pacote[i] == 'A'){
-			//Código para a armadura
 			has_armor = 1;
 			return;
 		}
 		else if(pacote[i] == 'T'){
-			//Código para o tiro
 			has_shot = 1;
 			return;
 		}
@@ -102,15 +99,14 @@ int main(int argc, char **argv)
 
 	/* now loop, receiving data and printing what we received */
 	for (;;) {
-		//printf("waiting on port %d\n", SERVICE_PORT);
+		
 		recvlen = recvfrom(fd, buf, BUFSIZE, 0, (struct sockaddr *)&remaddr, &addrlen);
-		//printf("received %d bytes\n", recvlen);
+		
 		
 		getmaxyx(stdscr, max_y, max_x);
 
 		if (recvlen > 0) {
 			buf[recvlen] = 0;
-			//printf("received message: \"%s\"\n", buf);
 			controle(buf, has_shot, direction, has_armor);
 		}
 
@@ -150,5 +146,4 @@ int main(int argc, char **argv)
 		usleep(DELAY);
 
 	}
-	/* never exits */
 }
