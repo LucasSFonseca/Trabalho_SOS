@@ -1,0 +1,10 @@
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: beaglebone: GNU/Linux
+   OS: GNU/Linux -- 4.4.9-ti-r25 -- #1 SMP Thu May 5 23:08:13 UTC 2016
+   Machine: armv7l (unknown)
+   Language: en_US.utf8 (charmap="UTF-8", collate="ANSI_X3.4-1968")
+   CPU 0: ARMv7 Processor rev 2 (v7l) (0.0 bogomips)
+          
+   06:29:20 up 20 min,  2 users,  load average: 1.10, 0.89, 0.56; runlevel May
+
