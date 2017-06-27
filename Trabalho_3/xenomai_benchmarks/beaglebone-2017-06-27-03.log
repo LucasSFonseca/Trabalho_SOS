@@ -1,0 +1,1179 @@
+
+########################################################
+Dhrystone 2 using register variables -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/dhry2reg" 10 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 32518033
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.013153
+# pid: 6217
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 32528870
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010841
+# pid: 6331
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 32530207
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.020063
+# pid: 6444
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 32529340
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.022886
+# pid: 6558
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 32535565
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.025662
+# pid: 6672
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 32534940
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.013178
+# pid: 6787
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 32498166
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010953
+# pid: 6900
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 32515953
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010883
+# pid: 7014
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 32526225
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010907
+# pid: 7128
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 32525387
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010948
+# pid: 7242
+# status: 0
+
+*Dump score:   32498166.0
+*Dump score:   32515953.0
+*Dump score:   32518033.0
+Count score:   32525387.0
+Count score:   32526225.0
+Count score:   32528870.0
+Count score:   32529340.0
+Count score:   32530207.0
+Count score:   32534940.0
+Count score:   32535565.0
+
+>>>> Results of 1 copy
+>>>> score: 3247696.56189714
+>>>> time: 10.016355
+>>>> iterations: 7
+
+
+########################################################
+Double-Precision Whetstone -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/whetstone-double"  2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.31 Seconds          5   Passes (x 100)
+       1.51 Seconds         25   Passes (x 100)
+
+Use 165  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.403              0.040
+N2 floating point     -1.12187079889293373        82.723              0.268
+N3 if then else        1.00000000000000000                 942.622    0.018
+N4 fixed point        12.00000000000000000               50400745.747    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.558    5.366
+N6 floating point      0.99999987890802811        71.616              1.243
+N7 assignments         3.00000000000000000                 218.177    0.140
+N8 exp,sqrt etc.       0.75100163018453692                   2.184    2.811
+
+MWIPS                                            166.907              9.886
+
+
+# COUNT0: 166.907
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.886
+# elapsed: 12.191044
+# pid: 7356
+# status: 0
+
+#### Pass 2
+
+Calibrate
+       0.06 Seconds          1   Passes (x 100)
+       0.30 Seconds          5   Passes (x 100)
+       1.50 Seconds         25   Passes (x 100)
+
+Use 166  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.182              0.040
+N2 floating point     -1.12187079889293373        82.885              0.269
+N3 if then else        1.00000000000000000                 684.692    0.025
+N4 fixed point        12.00000000000000000               25311530.120    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.558    5.400
+N6 floating point      0.99999987890802811        72.640              1.233
+N7 assignments         3.00000000000000000                 217.322    0.141
+N8 exp,sqrt etc.       0.75100163018453692                   2.186    2.825
+
+MWIPS                                            167.118              9.933
+
+
+# COUNT0: 167.118
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.933
+# elapsed: 12.237536
+# pid: 7487
+# status: 0
+
+#### Pass 3
+
+Calibrate
+       0.07 Seconds          1   Passes (x 100)
+       0.29 Seconds          5   Passes (x 100)
+       1.49 Seconds         25   Passes (x 100)
+
+Use 167  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        77.968              0.041
+N2 floating point     -1.12187079889293373        80.213              0.280
+N3 if then else        1.00000000000000000                 940.709    0.018
+N4 fixed point        12.00000000000000000               26818941.407    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.562    5.423
+N6 floating point      0.99999987890802811        71.702              1.256
+N7 assignments         3.00000000000000000                 218.985    0.141
+N8 exp,sqrt etc.       0.75100163018453692                   2.190    2.836
+
+MWIPS                                            167.066              9.996
+
+
+# COUNT0: 167.066
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.996
+# elapsed: 12.305684
+# pid: 7618
+# status: 0
+
+#### Pass 4
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.30 Seconds          5   Passes (x 100)
+       1.51 Seconds         25   Passes (x 100)
+
+Use 165  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.352              0.040
+N2 floating point     -1.12187079889293373        82.466              0.269
+N3 if then else        1.00000000000000000                 669.891    0.025
+N4 fixed point        12.00000000000000000               27574587.137    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.562    5.357
+N6 floating point      0.99999987890802811        71.614              1.243
+N7 assignments         3.00000000000000000                 218.344    0.140
+N8 exp,sqrt etc.       0.75100163018453692                   2.186    2.808
+
+MWIPS                                            166.962              9.883
+
+
+# COUNT0: 166.962
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.883
+# elapsed: 12.185793
+# pid: 7750
+# status: 0
+
+#### Pass 5
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.31 Seconds          5   Passes (x 100)
+       1.50 Seconds         25   Passes (x 100)
+
+Use 166  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.192              0.040
+N2 floating point     -1.12187079889293373        82.730              0.270
+N3 if then else        1.00000000000000000                 991.975    0.017
+N4 fixed point        12.00000000000000000               47505786.845    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.561    5.393
+N6 floating point      0.99999987890802811        71.643              1.250
+N7 assignments         3.00000000000000000                 217.611    0.141
+N8 exp,sqrt etc.       0.75100163018453692                   2.187    2.824
+
+MWIPS                                            167.087              9.935
+
+
+# COUNT0: 167.087
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.935
+# elapsed: 12.247652
+# pid: 7881
+# status: 0
+
+#### Pass 6
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.31 Seconds          5   Passes (x 100)
+       1.51 Seconds         25   Passes (x 100)
+
+Use 166  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.352              0.040
+N2 floating point     -1.12187079889293373        82.722              0.270
+N3 if then else        1.00000000000000000                 991.745    0.017
+N4 fixed point        12.00000000000000000               52499884.180    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.559    5.397
+N6 floating point      0.99999987890802811        71.639              1.250
+N7 assignments         3.00000000000000000                 218.995    0.140
+N8 exp,sqrt etc.       0.75100163018453692                   2.185    2.827
+
+MWIPS                                            166.988              9.941
+
+
+# COUNT0: 166.988
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.941
+# elapsed: 12.246771
+# pid: 8011
+# status: 0
+
+#### Pass 7
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.31 Seconds          5   Passes (x 100)
+       1.50 Seconds         25   Passes (x 100)
+
+Use 166  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.420              0.040
+N2 floating point     -1.12187079889293373        82.396              0.271
+N3 if then else        1.00000000000000000                 991.627    0.017
+N4 fixed point        12.00000000000000000               47359380.861    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.560    5.396
+N6 floating point      0.99999987890802811        71.622              1.250
+N7 assignments         3.00000000000000000                 217.344    0.141
+N8 exp,sqrt etc.       0.75100163018453692                   2.187    2.824
+
+MWIPS                                            167.012              9.939
+
+
+# COUNT0: 167.012
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.939
+# elapsed: 12.242170
+# pid: 8154
+# status: 0
+
+#### Pass 8
+
+Calibrate
+       0.06 Seconds          1   Passes (x 100)
+       0.31 Seconds          5   Passes (x 100)
+       1.51 Seconds         25   Passes (x 100)
+
+Use 166  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.362              0.040
+N2 floating point     -1.12187079889293373        82.712              0.270
+N3 if then else        1.00000000000000000                 991.351    0.017
+N4 fixed point        12.00000000000000000               56714784.767    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.507    5.510
+N6 floating point      0.99999987890802811        71.674              1.249
+N7 assignments         3.00000000000000000                 218.742    0.140
+N8 exp,sqrt etc.       0.75100163018453692                   2.186    2.825
+
+MWIPS                                            165.156             10.051
+
+
+# COUNT0: 165.156
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 10.051
+# elapsed: 12.354782
+# pid: 8285
+# status: 0
+
+#### Pass 9
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.30 Seconds          5   Passes (x 100)
+       1.51 Seconds         25   Passes (x 100)
+
+Use 165  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.387              0.040
+N2 floating point     -1.12187079889293373        82.670              0.268
+N3 if then else        1.00000000000000000                 942.625    0.018
+N4 fixed point        12.00000000000000000               25309350.294    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.558    5.366
+N6 floating point      0.99999987890802811        71.477              1.245
+N7 assignments         3.00000000000000000                 218.642    0.139
+N8 exp,sqrt etc.       0.75100163018453692                   2.180    2.815
+
+MWIPS                                            166.793              9.893
+
+
+# COUNT0: 166.793
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.893
+# elapsed: 12.193342
+# pid: 8420
+# status: 0
+
+#### Pass 10
+
+Calibrate
+       0.05 Seconds          1   Passes (x 100)
+       0.31 Seconds          5   Passes (x 100)
+       1.50 Seconds         25   Passes (x 100)
+
+Use 166  passes (x 100)
+
+          Double Precision C/C++ Whetstone Benchmark
+
+Loop content                  Result              MFLOPS      MOPS   Seconds
+
+N1 floating point     -1.12398255667391744        79.285              0.040
+N2 floating point     -1.12187079889293373        82.864              0.269
+N3 if then else        1.00000000000000000                 991.742    0.017
+N4 fixed point        12.00000000000000000               47763355.122    0.000
+N5 sin,cos etc.        0.49902937281518261                   2.558    5.399
+N6 floating point      0.99999987890802811        71.535              1.252
+N7 assignments         3.00000000000000000                 217.621    0.141
+N8 exp,sqrt etc.       0.75100163018453692                   2.187    2.824
+
+MWIPS                                            166.975              9.942
+
+
+# COUNT0: 166.975
+# COUNT1: 0
+# COUNT2: MWIPS
+# TIME: 9.942
+# elapsed: 12.245233
+# pid: 8551
+# status: 0
+
+*Dump score:        165.2
+*Dump score:        166.8
+*Dump score:        166.9
+Count score:        167.0
+Count score:        167.0
+Count score:        167.0
+Count score:        167.0
+Count score:        167.1
+Count score:        167.1
+Count score:        167.1
+
+>>>> Results of 1 copy
+>>>> score: 167.029704867395
+>>>> time: 9.93842857142857
+>>>> iterations: 7
+
+
+########################################################
+Execl Throughput -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/execl" 30 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 13719
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.383287
+# pid: 8682
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 13900
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.913277
+# pid: 8947
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 13948
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 29.883958
+# pid: 9230
+# status: 0
+
+*Dump score:      13719.0
+Count score:      13900.0
+Count score:      13948.0
+
+>>>> Results of 1 copy
+>>>> score: 465.706516026769
+>>>> time: 29.8986175
+>>>> iterations: 2
+
+
+########################################################
+File Copy 1024 bufsize 2000 maxblocks -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/fstime" -c -t 30 -d "/home/debian/byte-unixbench/UnixBench/tmp" -b 1024 -m 2000 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+Write done: 1304000 in 2.0124, score 161998
+Read done: 1579780 in 2.0001, score 197464
+Copy done: 9938740 in 30.0001, score 82822
+
+# COUNT0: 82822
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 47.721284
+# pid: 9499
+# status: 0
+
+#### Pass 2
+
+Write done: 1296000 in 2.0080, score 161350
+Read done: 1591448 in 2.0001, score 198924
+Copy done: 9927188 in 30.0028, score 82718
+
+# COUNT0: 82718
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 46.504349
+# pid: 9919
+# status: 0
+
+#### Pass 3
+
+Write done: 1304000 in 2.0113, score 162084
+Read done: 1589264 in 2.0001, score 198651
+Copy done: 9933572 in 30.0001, score 82779
+
+# COUNT0: 82779
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.243741
+# pid: 10328
+# status: 0
+
+*Dump score:      82718.0
+Count score:      82779.0
+Count score:      82822.0
+
+>>>> Results of 1 copy
+>>>> score: 82800.4972086521
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 256 bufsize 500 maxblocks -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/fstime" -c -t 30 -d "/home/debian/byte-unixbench/UnixBench/tmp" -b 256 -m 500 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+Write done: 370000 in 2.0001, score 46248
+Read done: 778000 in 2.0001, score 97247
+Copy done: 3421057 in 30.0001, score 28508
+
+# COUNT0: 28508
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 46.368373
+# pid: 10726
+# status: 0
+
+#### Pass 2
+
+Write done: 368000 in 2.0084, score 45808
+Read done: 781594 in 2.0001, score 97696
+Copy done: 3424361 in 30.0001, score 28536
+
+# COUNT0: 28536
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.140333
+# pid: 11136
+# status: 0
+
+#### Pass 3
+
+Write done: 370000 in 2.0016, score 46213
+Read done: 791097 in 2.0001, score 98883
+Copy done: 3425573 in 30.0001, score 28546
+
+# COUNT0: 28546
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.124527
+# pid: 11533
+# status: 0
+
+*Dump score:      28508.0
+Count score:      28536.0
+Count score:      28546.0
+
+>>>> Results of 1 copy
+>>>> score: 28540.9995620336
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+File Copy 4096 bufsize 8000 maxblocks -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/fstime" -c -t 30 -d "/home/debian/byte-unixbench/UnixBench/tmp" -b 4096 -m 8000 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+Write done: 3520000 in 2.0043, score 439053
+Read done: 2243216 in 2.0001, score 280389
+Copy done: 19262304 in 30.0073, score 160480
+
+# COUNT0: 160480
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 49.166734
+# pid: 11931
+# status: 0
+
+#### Pass 2
+
+Write done: 3488000 in 2.0027, score 435419
+Read done: 2247424 in 2.0052, score 280205
+Copy done: 19143840 in 30.0001, score 159531
+
+# COUNT0: 159531
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 47.315120
+# pid: 12374
+# status: 0
+
+#### Pass 3
+
+Write done: 3392000 in 2.0015, score 423684
+Read done: 2231904 in 2.0001, score 278978
+Copy done: 19049040 in 30.0001, score 158741
+
+# COUNT0: 158741
+# COUNT1: 0
+# COUNT2: KBps
+# TIME: 30.0
+# elapsed: 45.595910
+# pid: 12790
+# status: 0
+
+*Dump score:     158741.0
+Count score:     159531.0
+Count score:     160480.0
+
+>>>> Results of 1 copy
+>>>> score: 160004.796428107
+>>>> time: 30
+>>>> iterations: 2
+
+
+########################################################
+Pipe Throughput -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/pipe" 10 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 1687311
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.027777
+# pid: 13191
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 1685997
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010657
+# pid: 13306
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 1684137
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010612
+# pid: 13420
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 1686474
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010569
+# pid: 13540
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 1685850
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010586
+# pid: 13655
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 1685742
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010611
+# pid: 13769
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 1685825
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011538
+# pid: 13883
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 1686477
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.019392
+# pid: 13996
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 1673365
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010604
+# pid: 14110
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 1685403
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010686
+# pid: 14224
+# status: 0
+
+*Dump score:    1673365.0
+*Dump score:    1684137.0
+*Dump score:    1685403.0
+Count score:    1685742.0
+Count score:    1685825.0
+Count score:    1685850.0
+Count score:    1685997.0
+Count score:    1686474.0
+Count score:    1686477.0
+Count score:    1687311.0
+
+>>>> Results of 1 copy
+>>>> score: 168380.705209542
+>>>> time: 10.0144471428571
+>>>> iterations: 7
+
+
+########################################################
+Pipe-based Context Switching -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/context1" 10 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 315635
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.016281
+# pid: 14338
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 321444
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.011351
+# pid: 14453
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 317604
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.012973
+# pid: 14568
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 317333
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.024930
+# pid: 14682
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 318778
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.019566
+# pid: 14797
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 328413
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.012182
+# pid: 14913
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 328089
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.015919
+# pid: 15028
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 316840
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.024939
+# pid: 15142
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 322220
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.024612
+# pid: 15257
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 318429
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.028136
+# pid: 15372
+# status: 0
+
+*Dump score:     315635.0
+*Dump score:     316840.0
+*Dump score:     317333.0
+Count score:     317604.0
+Count score:     318429.0
+Count score:     318778.0
+Count score:     321444.0
+Count score:     322220.0
+Count score:     328089.0
+Count score:     328413.0
+
+>>>> Results of 1 copy
+>>>> score: 32153.997065668
+>>>> time: 10.0178198571429
+>>>> iterations: 7
+
+
+########################################################
+Process Creation -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/spawn" 30 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 49960
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.020189
+# pid: 15487
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 49835
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.014490
+# pid: 1076
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 48921
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 30.018721
+# pid: 18872
+# status: 0
+
+*Dump score:      48921.0
+Count score:      49835.0
+Count score:      49960.0
+
+>>>> Results of 1 copy
+>>>> score: 1662.28792801792
+>>>> time: 30.0173395
+>>>> iterations: 2
+
+
+########################################################
+System Call Overhead -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/syscall" 10 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 3888414
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.016404
+# pid: 3423
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 3889527
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.019944
+# pid: 3536
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 3889272
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.012835
+# pid: 3651
+# status: 0
+
+#### Pass 4
+
+
+# COUNT0: 3831949
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010507
+# pid: 3764
+# status: 0
+
+#### Pass 5
+
+
+# COUNT0: 3888713
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010531
+# pid: 3878
+# status: 0
+
+#### Pass 6
+
+
+# COUNT0: 3888972
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010545
+# pid: 3992
+# status: 0
+
+#### Pass 7
+
+
+# COUNT0: 3889812
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010574
+# pid: 4106
+# status: 0
+
+#### Pass 8
+
+
+# COUNT0: 3890531
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.010709
+# pid: 4220
+# status: 0
+
+#### Pass 9
+
+
+# COUNT0: 3890231
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.014302
+# pid: 4334
+# status: 0
+
+#### Pass 10
+
+
+# COUNT0: 3893320
+# COUNT1: 1
+# COUNT2: lps
+# elapsed: 10.012901
+# pid: 4448
+# status: 0
+
+*Dump score:    3831949.0
+*Dump score:    3888414.0
+*Dump score:    3888713.0
+Count score:    3888972.0
+Count score:    3889272.0
+Count score:    3889527.0
+Count score:    3889812.0
+Count score:    3890231.0
+Count score:    3890531.0
+Count score:    3893320.0
+
+>>>> Results of 1 copy
+>>>> score: 388514.216629453
+>>>> time: 10.0131157142857
+>>>> iterations: 7
+
+
+########################################################
+Shell Scripts (1 concurrent) -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/looper" 60 "/home/debian/byte-unixbench/UnixBench/pgms/multi.sh" 1 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 810
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.041426
+# pid: 4561
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 808
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.033457
+# pid: 13181
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 810
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.066565
+# pid: 21774
+# status: 0
+
+*Dump score:        808.0
+Count score:        810.0
+Count score:        810.0
+
+>>>> Results of 1 copy
+>>>> score: 809.271733877081
+>>>> time: 60.0539955
+>>>> iterations: 2
+
+
+########################################################
+Shell Scripts (8 concurrent) -- 1 copy
+==> "/home/debian/byte-unixbench/UnixBench/pgms/looper" 60 "/home/debian/byte-unixbench/UnixBench/pgms/multi.sh" 8 2>&1 >> "/home/debian/byte-unixbench/UnixBench/results/beaglebone-2017-06-27-03.log"
+
+#### Pass 1
+
+
+# COUNT0: 103
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.585334
+# pid: 30387
+# status: 0
+
+#### Pass 2
+
+
+# COUNT0: 103
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.584286
+# pid: 6166
+# status: 0
+
+#### Pass 3
+
+
+# COUNT0: 102
+# COUNT1: 60
+# COUNT2: lpm
+# elapsed: 60.129386
+# pid: 14266
+# status: 0
+
+*Dump score:        102.0
+Count score:        103.0
+Count score:        103.0
+
+>>>> Results of 1 copy
+>>>> score: 102.005766795854
+>>>> time: 60.58481
+>>>> iterations: 2
+

@@ -1,0 +1,43 @@
+   BYTE UNIX Benchmarks (Version 5.1.3)
+
+   System: beaglebone: GNU/Linux
+   OS: GNU/Linux -- 3.8.13-xenomai-r72 -- #1 Tue Apr 21 19:44:28 UTC 2015
+   Machine: armv7l (unknown)
+   Language: en_US.utf8 (charmap="ANSI_X3.4-1968", collate="ANSI_X3.4-1968")
+   CPU 0: ARMv7 Processor rev 2 (v7l) (0.0 bogomips)
+          
+   15:13:21 up  1:22,  2 users,  load average: 0.56, 0.23, 0.34; runlevel Jun
+
+------------------------------------------------------------------------
+Benchmark Run: Tue Jun 27 2017 15:13:21 - 15:41:49
+1 CPU in system; running 1 parallel copy of tests
+
+Dhrystone 2 using register variables        3247677.4 lps   (10.0 s, 7 samples)
+Double-Precision Whetstone                      166.9 MWIPS (9.9 s, 7 samples)
+Execl Throughput                                468.4 lps   (29.9 s, 2 samples)
+File Copy 1024 bufsize 2000 maxblocks         78386.7 KBps  (30.0 s, 2 samples)
+File Copy 256 bufsize 500 maxblocks           26332.1 KBps  (30.0 s, 2 samples)
+File Copy 4096 bufsize 8000 maxblocks        153867.3 KBps  (30.0 s, 2 samples)
+Pipe Throughput                              168236.1 lps   (10.0 s, 7 samples)
+Pipe-based Context Switching                  32247.0 lps   (10.0 s, 7 samples)
+Process Creation                               1673.8 lps   (30.0 s, 2 samples)
+Shell Scripts (1 concurrent)                    808.6 lpm   (60.0 s, 2 samples)
+Shell Scripts (8 concurrent)                    101.6 lpm   (60.2 s, 2 samples)
+System Call Overhead                         395696.2 lps   (10.0 s, 7 samples)
+
+System Benchmarks Index Values               BASELINE       RESULT    INDEX
+Dhrystone 2 using register variables         116700.0    3247677.4    278.3
+Double-Precision Whetstone                       55.0        166.9     30.3
+Execl Throughput                                 43.0        468.4    108.9
+File Copy 1024 bufsize 2000 maxblocks          3960.0      78386.7    197.9
+File Copy 256 bufsize 500 maxblocks            1655.0      26332.1    159.1
+File Copy 4096 bufsize 8000 maxblocks          5800.0     153867.3    265.3
+Pipe Throughput                               12440.0     168236.1    135.2
+Pipe-based Context Switching                   4000.0      32247.0     80.6
+Process Creation                                126.0       1673.8    132.8
+Shell Scripts (1 concurrent)                     42.4        808.6    190.7
+Shell Scripts (8 concurrent)                      6.0        101.6    169.3
+System Call Overhead                          15000.0     395696.2    263.8
+                                                                   ========
+System Benchmarks Index Score                                         146.1
+
